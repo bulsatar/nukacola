@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Nuke.Tool.Deploy</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>NukaCola</PackageId>
+    <Product>NukaCola</Product>
+    <Authors>Adrian Hoffman</Authors>
+    <Description>Additional tools to assist with Nuke including:
+Aws, Sam, and Terraform Deployments</Description>
+	  <VersionPrefix>0.1.0</VersionPrefix>
+	  <VersionSuffix></VersionSuffix>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Nuke.Common" Version="5.1.1" />
+  </ItemGroup>
+
+
+</Project>

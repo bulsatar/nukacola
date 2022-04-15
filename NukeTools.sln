@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NukaCola", "Deploy\NukaCola.csproj", "{795A0431-6A7B-445C-8FC7-7700D63F1ADE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTests", "UnitTests\UnitTests.csproj", "{5495021A-91A8-4C0E-8380-DA598724B1F3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_build", "build\_build.csproj", "{FC16D3A6-2F90-4654-9BF9-83952D45A197}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{795A0431-6A7B-445C-8FC7-7700D63F1ADE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{795A0431-6A7B-445C-8FC7-7700D63F1ADE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{795A0431-6A7B-445C-8FC7-7700D63F1ADE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{795A0431-6A7B-445C-8FC7-7700D63F1ADE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5495021A-91A8-4C0E-8380-DA598724B1F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5495021A-91A8-4C0E-8380-DA598724B1F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5495021A-91A8-4C0E-8380-DA598724B1F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5495021A-91A8-4C0E-8380-DA598724B1F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC16D3A6-2F90-4654-9BF9-83952D45A197}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC16D3A6-2F90-4654-9BF9-83952D45A197}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EA537458-3A32-4E8F-8BB3-6952EFD62F97}
+	EndGlobalSection
+EndGlobal
